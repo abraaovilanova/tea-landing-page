@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Geologica:wght,CRSV@100..900,0&family=Jersey+15&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+.main-display {
+  background: #1d7ec3;
+  color: #ffffff;
+}
+
+.navbar {
+  font-family: 'Londrina Solid';
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.info {
+  font-family: 'Geologica';
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.header-footer {
+  padding: 1.5rem;
+  background-color: #42b9a6;
+}
+
+.highlighted-info {
+  font-family: 'Geologica';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #713dea;
+  width: 20%;
+  height: 2.5rem;
+  border-radius: 3rem;
+  padding: 0.5rem;
+}
+
+.highlighted-info p {
+  text-align: center;
+}
+
+.video{
+  background-color: #1c81c5;
+}
+
+.tablet{
+  background-color: #266ba1;
+}
+
+.bullet-points-session{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Geologica';
+  font-size: 1.8rem;
+  background-color: #3a8bc6;
+  padding: 1.5rem;
+}
+
+.bullet-points-session--title{
+  border-radius: 1.5rem;
+  padding: 1rem;
+  background-color: #0d4168;
+}
+
+.bullet-points-session--highlight{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  background-color: #0a5f9f;
+  width: 60%;
+}
+
+.girl-session{
+  background-color: #5d3798;
+  color: #ffffff;
+  font-family: "Cherry Bomb One";
+}
+
+.note-book-session{
+  background-color: #432476;
+  color: #ffffff;
+}
+
+
+.footer{
+  background-color: #3a8bc6;
+}
