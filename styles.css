@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Geologica:wght,CRSV@100..900,0&family=Jersey+15&family=Londrina+Solid:wght@100;300;400;900&display=swap');
 @font-face {
   font-family: 'PuffyFluffy';
-  src: url('fonts/PUFFYFLUFFY.TTF') format('truetype');
+  src: url('../fonts/PUFFYFLUFFY.TTF') format('truetype');
 }
 
 body {
