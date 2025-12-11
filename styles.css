@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Geologica:wght,CRSV@100..900,0&family=Jersey+15&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@font-face {
+  font-family: 'PuffyFluffy';
+  src: url('fonts/PUFFYFLUFFY.TTF') format('truetype');
+}
 
-body{
+body {
   margin: 0;
 }
 
@@ -21,7 +25,7 @@ body{
   gap: 20px;
   font-size: 2rem;
 }
-.header-image{
+.header-image {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,15 +71,15 @@ body{
   text-align: center;
 }
 
-.video{
+.video {
   background-color: #1c81c5;
 }
 
-.tablet{
+.tablet {
   background-color: #266ba1;
 }
 
-.bullet-points-session{
+.bullet-points-session {
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -87,13 +91,13 @@ body{
   padding: 1.5rem;
 }
 
-.bullet-points-session--title{
+.bullet-points-session--title {
   border-radius: 1.5rem;
   padding: 1rem;
   background-color: #0d4168;
 }
 
-.bullet-points-session--highlight{
+.bullet-points-session--highlight {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,18 +109,65 @@ body{
   width: 60%;
 }
 
-.girl-session{
+.girl-session {
   background-color: #5d3798;
   color: #ffffff;
-  font-family: "Cherry Bomb One";
+  font-family: 'Cherry Bomb One';
 }
 
-.note-book-session{
+.note-book-session {
   background-color: #432476;
   color: #ffffff;
 }
 
-
-.footer{
+.footer {
   background-color: #3a8bc6;
+}
+
+.advantage-title {
+  font-family: 'PuffyFluffy';
+}
+
+.tablet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions {
+  padding: 1.5rem;
+  background-color: #0a5c9e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #0a5c9e;
+  width: 50%;
+  border-radius: 1rem;
+}
+
+.questions--content {
+  background-color: #1c7ec4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.questions--content ul li  {
+  font-size: 1.5rem;
+  font-family: 'Geologica';
+  list-style: none;
+  margin: 1rem;
 }
