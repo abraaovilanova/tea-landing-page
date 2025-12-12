@@ -43,6 +43,13 @@ body {
   background-color: #42b9a6;
 }
 
+.social-media-icons--group{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .social-media-icons {
   display: flex;
   flex-direction: row;
@@ -194,4 +201,46 @@ body {
 .bonus--content{
   display: flex;
   flex-direction: row;
+}
+
+.bonus--text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+
+.tabelas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.tabela-bonus li{
+  font-family: 'Geologica';
+  font-size: 1.5rem;
+  height: 3.5rem;
+  background-color: #4b9adc;
+  border-radius: 0.75rem;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  max-width: 70%;
+}
+.question-button{
+  border: 1px solid white;
+  color: #ec8511;
+  font-size: 3.5rem;
+  font-family: 'Geologica';
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  font-weight: 800;
 }
