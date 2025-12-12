@@ -11,6 +11,10 @@ body {
 .main-display {
   background: #1d7ec3;
   color: #ffffff;
+  background-image: url('public/cena1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -27,6 +31,13 @@ body {
 }
 .header-image {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.header-image{
+   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -149,7 +160,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+}public/cena1.png
 
 .questions--title {
   display: flex;
