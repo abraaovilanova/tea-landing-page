@@ -244,3 +244,94 @@ body {
   padding: 1rem;
   font-weight: 800;
 }
+
+.testimonial {
+  position: relative;
+  width: 80%;
+  margin: 40px auto;
+  padding: 25px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  color: white;
+}
+
+.testimonial.orange {
+  background: #ff7a00;
+}
+
+.testimonial.purple {
+  background: #4a1b8b;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #ddd;
+}
+
+.avatar.left {
+  margin-right: 20px;
+}
+
+.avatar.right {
+  margin-left: 20px;
+}
+
+.content h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.stars {
+  color: #fff;
+  margin: 5px 0 10px 0;
+  letter-spacing: 2px;
+}
+
+.content p {
+  margin: 0;
+  max-width: 450px;
+  line-height: 1.4;
+}
+
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 22px;
+}
+
+.testimonial.purple .menu {
+  left: 20px;
+  right: auto;
+}
+
+/* Setinha inferior */
+.arrow {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.testimonial.orange .arrow {
+  left: 60px;
+  border-width: 15px 15px 0 15px;
+  border-color: #ff7a00 transparent transparent transparent;
+}
+
+.testimonial.purple .arrow {
+  right: 60px;
+  border-width: 15px 15px 0 15px;
+  border-color: #4a1b8b transparent transparent transparent;
+}
